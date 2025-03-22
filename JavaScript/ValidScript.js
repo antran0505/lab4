@@ -25,7 +25,7 @@ function validform(f) {
         return;
     }
 
-    // Cập nhật biểu thức chính quy để kiểm tra số điện thoại
+   
     const phonePattern = /^(\(\d{2,4}\)\s?)?\d{3}[\s.-]?\d{3}[\s.-]?\d{4}$/;
     if (!phonePattern.test(f.phone.value)) {
         alert("Phone format must be (XX) XXX-XXX, (XXX) XXX-XXXX, or XXX-XXX-XXXX");
